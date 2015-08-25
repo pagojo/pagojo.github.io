@@ -1,0 +1,61 @@
+body {
+    background: #000;
+	font-family: 'ArialMT',arial, verdana, helvetica, sans-serif;
+    font-size: 0.95em;
+    color:#fff;
+	line-height: 1.35em;
+	margin:0; padding:0;
+}
+
+a			{ color: #fff; text-decoration: underline}
+img			{ border: 0}
+p			{ margin-top:0}
+.small		{ font-size: 0.9em;}
+hr 			{ display: block;  height: 1px; background-color: #8e8e8e; color: #8e8e8e; border: 0; padding: 0; margin: 1.5em 3em;}
+
+h1			{ margin: 0 0 0.6em 0; padding:0; font-size: 2.4em; font-weight: lighter; line-height:normal; text-align: center;}
+h2			{ margin: 0 0 0.2em 0; padding:0; font-size: 1.4em; font-weight: lighter; color: #ff5900; line-height:normal;}
+h3			{ margin: 0; padding:0; font-size: 1.1em; font-weight: lighter; color: #ff5900; line-height:normal;}
+
+#page 		{ margin-left: auto;  margin-right: auto; padding: 0 0 3em 0; width: 630px; }
+
+/* ********** Top navigation ********** */
+#topNav 		{ font-size: 1.1em; text-align: center; color: #8e8e8e; margin: 0 0 1.5em 0; padding:1em 0; border-bottom: 1px solid #8e8e8e}
+#topNav ul 		{ padding: 0; margin: 0; }
+#topNav li 		{ padding: 0 15px 0 0; display: inline; list-style: none; }
+#topNav li.on	{ font-weight:bold; color:#fff; }
+
+#topNav a 		{ color: #8e8e8e; text-decoration: none; }
+#topNav a:hover	{ color: #fff;}
+
+.home			{ margin:0; padding: 0 8em 2em 5em; text-align: right}
+.home .author	{ font-size: 0.8em; font-style:italic}
+
+
+/* ********** 2 Column Layout ********** */
+.twoColumns						{ margin:0; padding:0; width: 630px;}
+.twoColumns .ContentColumn		{ float:right; padding: 0; width: 380px; }
+
+.twoColumns .rightNavigation	{ float:left; font-size: 0.85em; padding:0 35px 0 0; margin: 0; width: 210px; line-height:1.4em;}
+.twoColumns .rightNavigation ul	{ margin:0 0 0 1.2em; padding: 0}
+.twoColumns .rightNavigation ol	{ margin:0 0 0 1.7em; padding: 0}
+.twoColumns .rightNavigation li	{ margin:0; padding:0 0 0.5em 0}
+.twoColumns .rightNavigation a	{ color: #fff; text-decoration: underline; font-weight: bold}
+.twoColumns .rightNavigation h3	{ margin: 0; padding:0 0 0.8em 0; font-size: 1.1em; font-weight: bold; color: #ff5900;}
+.twoColumns .rightNavigation h3 .small	{ font-size: 0.8em; font-weight: normal; color: #fff;}
+.twoColumns .rightNavigation h4	{ margin: 0; padding:0; font-size: 1em; font-weight: bold; line-height:normal;}
+.navBlock						{ margin: 0; padding: 0 0 2em 0 }
+
+.disclaimer		{ font-size: 0.8em; margin: 4em 0 0 70px; width: 200px; padding:0}
+.disclaimer p	{ font-style:italic}
+
+/* Mozilla fix */
+.cp:after 	{ content: ".";  display: block;  height: 0;  clear: both;  visibility: hidden; }
+.cp 		{ display: inline-block;}
+/* Hides from IE-mac \*/
+* html .cp	{ height: 1%;}
+.cp			 {display: block;}
+
+
+
+
