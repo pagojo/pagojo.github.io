@@ -585,6 +585,82 @@ h3 {
   /* Optional: Add sharper images or font adjustments here */
 }
 
+/* ——— Mobile Devices (Under 600px) ——— */
+@media screen and (max-width: 600px) {
+  :root {
+    --layout-width: 90%;
+    --font-size-base: 1em;
+  }
+
+  #page {
+    width: var(--layout-width);
+    padding: 0 5%;
+  }
+
+  #topNav {
+    font-size: 0.9em;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0;
+  }
+
+  #topNav li {
+    padding: 0 0.75em 0 0;
+    display: block;
+  }
+
+  .home {
+    padding: 0 1.5em 1.5em 1.5em;
+    text-align: center;
+  }
+
+  .twoColumns,
+  .twoColumns .ContentColumn,
+  .twoColumns .rightNavigation {
+    float: none;
+    width: 100%;
+  }
+
+  .disclaimer {
+    margin: 2em 0 0 0;
+    width: auto;
+    padding: 0 1em;
+    font-size: 0.8em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  hr {
+    margin: var(--space-sm) 1em;
+    padding: 0;
+  }
+}
+
+/* ——— Print Styles Enhancements ——— */
+@media print {
+  /* Hide navigation from print */
+  #topNav {
+    display: none;
+  }
+
+  /* Ensure content is readable */
+  .twoColumns,
+  .twoColumns .ContentColumn,
+  .twoColumns .rightNavigation {
+    float: none;
+    width: 100%;
+  }
+}
+
 /* ——————————— Clearfix (Preserve Existing) ——————————— */
 .cp:after {
   content: ".";
